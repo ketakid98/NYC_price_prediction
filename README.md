@@ -30,9 +30,13 @@ Data Preprocessing
 Data preprocessing steps include:
 
 1.Dropping Irrelevant Columns: Removed columns that are not useful for prediction, such as Unnamed: 0, APARTMENT NUMBER, etc.
+
 2.Handling Missing Values: Filled missing values for numeric features with the mean or using appropriate methods.
+
 3.Encoding Categorical Variables: Converted categorical variables into category type and encoded them as numerical codes.
+
 4.Normalization: Applied normalization to features like LAND SQUARE FEET and GROSS SQUARE FEET.
+
 5.Feature Engineering: Extracted additional features from SALE DATE such as year, month, quarter, and day.
 
 
